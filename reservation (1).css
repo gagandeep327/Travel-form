@@ -1,0 +1,456 @@
+*{
+  margin:0;
+  padding:0;
+  }
+ body{
+      font-family:'Poppins',sans-serif;  
+      margin-top:40px;
+      background-position:center;
+      background-size:cover;
+    }
+
+    @media only screen and (max-width: 600px) {
+      body {
+        background-image: url(background1.jpeg);
+      }
+    }
+    .banner{
+      min-height: 100vh;
+      background-image: url("background1.jpeg");
+      opacity: 0.8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+  
+  }
+  img{
+     float: left;
+     margin-left: 20px;
+     margin-top: -30px;
+     height: 150px;
+     width: 150px;
+  }
+  h2{
+     margin-top: 30px;
+     font-size: 30px;
+     font-weight: 700;
+  }
+  p{
+     color:rgb(158, 70, 70);
+  }
+  
+
+   .regform{
+      margin-top: 60px;
+      height: 50px;
+      padding-bottom: 40px;
+      width:1000px;
+      text-align:center;
+      color: brown;
+      opacity: 0.8;
+      background-color: antiquewhite;
+   
+      
+     
+    }  
+    
+  .main{
+      background-color:antiquewhite;
+      opacity: 0.8;
+      width:800px;
+      margin-top: 30px;}
+  
+  form{
+      padding:10px;
+   
+  } 
+  
+  #name{
+       width:100%;
+      height:100px;
+    
+    }  
+  .name{
+         margin-left:25px;
+         margin-top:30px;
+         width: 125px;
+         color: brown;
+         font-size: 18px;
+         font-weight: 700;
+      }
+.firstname{
+      position: relative;
+       left:200px;
+       top:-37px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }
+.lastname{
+             position: relative;
+       left:417px;
+       top:-80px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color:#555;       
+                  }  
+ .firstlabel{
+            position:relative;
+            color:black;    
+      text-transform: capitalize;
+   font-size: 14px;
+   left:203px;
+   top:-45px;
+   }   
+.lastlabel{
+            position:relative;
+   color:black;
+   text-transform:capitalize;
+   font-size:14px;
+   left:492px;
+   top:-76px;
+     } 
+
+.company{
+    position:relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+     border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  }
+
+.Adult-name{
+    position:relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  }
+ .email{
+        position:relative;
+  left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  
+    }     
+ 
+   .Code{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height: 40px;
+        width:200px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;  
+  }
+ .number{
+         position:relative;
+         left:150px;
+         top:-37px;
+         line-height: 40px;
+         width:200px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+         color: #555; 
+     }
+ .area-code{
+      position:relative;
+      color:black;
+      text-transform:capitalize;
+      font-size:16px;
+      left:-45px;
+      top:-4px;
+     }
+ .phone-number{
+      position:relative;
+      color:black;
+      text-transform:capitalize;
+      font-size:16px;
+      left:-100px;
+      top:-2px;
+     }
+ .option{
+         position:relative;
+         left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:532px;
+     height:40px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555; 
+     outline:none;
+     overflow:hidden;
+  }    
+
+.option{
+                 font-size:40px;
+       }
+#Mailing{
+    width:100%;
+    height:100px;
+    
+    }  
+  .Mailing{
+            margin-left:20px;
+            margin-top:30px;
+            width: 200px;
+            color: brown;
+            font-size: 18px;
+            font-weight: 700;}
+
+  .Mailing1{
+               margin-left:20px;
+               margin-top:30px;
+               width: 20px;
+               color: brown;
+               font-size: 18px;
+               font-weight: 700;}
+
+.Mailing-Address{
+
+       position: relative;
+       left:200px;
+       top:0px;
+       line-height: 40px;
+       width: 190px;
+       border-radius: 6px;
+       padding: 0 170px;
+       font-size: 16px;
+       
+       } 
+
+.Mailinglabel{
+            position:relative;
+            color:black;    
+            text-transform: capitalize;
+            font-size: 18px;
+            left:-520px;
+            top:38px;
+         }
+
+.Special{
+      position: relative;
+       left:200px;
+       top:0px;
+        width: 190px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 170px;
+       font-size: 16px;
+       
+       }  
+#City{
+      width:100%;
+      height:60px;
+    
+    }  
+    
+.City{
+      margin-left:50px;
+      margin-top:30px;
+      width: 125px;
+      color: black;
+      font-size: 18px;
+      font-weight: 700;
+     }
+.City1{margin-left:50px;
+   margin-top:30px;
+   width: 125px;
+   color: black;
+   font-size: 18px;
+   font-weight: 700;
+
+}
+select{
+   width: 240px;
+   height: 200px;
+   font-size: 60px;
+   margin-left: 200px;
+}
+.City1{
+   margin-left:50px;
+   margin-top:30px;
+   width: 125px;
+   color: black;
+   font-size: 18px;
+   font-weight: 700;
+  }
+
+.Cityname{
+       left: 490px;
+       position: relative;
+       top:-30px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }
+
+.Statename{
+       position: relative;
+       left: 200px;
+       top:-74px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color:#555;       
+      
+      }  
+
+.Cityname1{
+         height: 50px;
+         left: 290px;
+         position: relative;
+         top:-25px;
+         line-height: 40px;
+         border-radius: 6px;
+         font-size: 16px;
+         
+         }
+  
+ .Statename1{
+         height: 50px;
+         position: relative;
+         top:-74px;
+         line-height: 40px;
+         border-radius: 6px;
+         font-size: 16px;
+         color:#555;       
+        
+        } 
+
+        .Statename2{
+         left: 200px;
+         height: 50px;
+         position: relative;
+         top:-70px;
+         line-height: 30px;
+         border-radius: 6px;
+         font-size: 16px;
+         color:#555;       
+        
+        } 
+
+ .Citylabel{
+            position:relative;
+            color:black;    
+            text-transform: capitalize;
+            font-size: 14px;
+            left:4px;
+            top:-45px;
+         }   
+.Statelabel{
+            position:relative;
+   color:black;
+   text-transform:capitalize;
+   font-size:14px;
+   left:270px;
+   top:-76px;
+     }
+.option-name{
+            margin-left:200px;
+            margin-top:-98px;
+            width: 200px;
+            height: 50px;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;}
+.coutrylabel{
+            position:relative;
+   color:black;
+   text-transform:capitalize;
+   font-size:14px;
+   left:180px;
+   top:-5px;
+     }
+
+
+     .radio{
+         display:inline-block;
+   padding-right:70px;
+   font-size:25px;
+   margin-left:50px;
+   margin-top:15px;
+   color:white;
+   }
+  .radio input{
+              width:20px;
+     height:20px;
+     border-radius:50%;
+     cursor:pointer;
+     outline:none;
+    }
+    .button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    
+    .button1 {
+      background-color: white; 
+      color: black; 
+      border: 2px solid rgb(158, 70, 70);
+    }
+    
+    .button1:hover {
+      background-color: rgb(158, 70, 70);
+      color: white;
+    }
+    
+    .button2 {
+      background-color: white; 
+      color: black; 
+      border: 2px solid rgb(158, 70, 70);
+    }
+    
+    .button2:hover {
+      background-color: rgb(158, 70, 70);
+      color: white;
+    } 
+
+    h4{
+       color: brown;
+       margin-left: -180px;
+    }
+    .captcha{
+       color:brown;
+       margin-left: 200px;
+    }
+   .Research{
+      color:brown;
+      margin-left: 200px;
+   }
+   .end{
+      margin-left:300px
+   }
+  

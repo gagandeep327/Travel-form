@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reservation (1).css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="reservation(1).js"></script>
+    <title>Hotel Request form</title>
+</head>
+<body>
+    <section class="banner">
+    <div class="regform"><img src="images.jpg">
+        <h2>Canadian Travel Agency</h2>
+</div>
+
+<div class="main">
+    
+        <form name="RegForm" action="reservation (1).html" 
+          onsubmit="return validate()" method="post">
+            <div id="name">
+                <h2 class="name">Passenger contact info</h2>
+                <input class="firstname" type="text" name="Name" id="data_2" required><br>
+                <label class="firstlabel">First name</label>
+                <input class="lastname" type="text" name="Na" id="data_3" required><br>
+                <label class="lastlabel">Last name</label>
+            </div>
+             <h2 class="name">Contact Information</h2>
+                <input class="Code" type="text" name="Telephone">
+                <label class="area-code">Area Code</label>
+                <input class="number" type="text" name="Telephone" id="data_4">
+                <label class="phone-number">Phone Number</label><br>
+            <div id="Mailing">
+                <h2 class="Mailing">Mailing Address</h2>
+                <input class="Mailing-Address" type="text" name="Addre" placeholder="Street Address 1">
+            
+            </div>
+            <div id="Mailing">
+                 <input class="Mailing-Address" type="text" name="Addre" placeholder="Street Address 2">
+            </div>
+            <div id="City"> 
+                <input class="Cityname" type="text" name="Address" placeholder="State/Province"><br>
+                <input class="Statename" type="text" name="Address" placeholder="Postal Code"><br>
+                
+                
+            </div>
+            
+             <div id="City">
+         
+                    <select class="Cityname1"name="Address">
+                        <option value="City-select">Select City</option>
+                        <option>Scarborough</option>
+                        <option>Toronto</option>
+                        <option>Brampton</option>
+                    </select>
+       
+                    <select class="Statename1" name="Address">
+                        <option value="Country-select">Select Country</option>
+                        <option>Canada</option>
+                        <option>America</option>
+                        <option>England</option>
+                    </select>
+                
+               
+                <h2 class="option-name">
+            </div>
+             <h2 class="name">Email</h2>
+                  <input class="email" type="email" name="EMail" placeholder="myname@example.com">
+                  <h2 class="name">Verify Email</h2>
+                  <input class="email" type="email" name="EMail">
+           
+             <h2 class="name">Number of Adults </h2>
+                  <input class="company" type="number" name="Adults" min="0">
+                  <h2 class="name"> Name of Adults </h2>
+              
+                <textarea class="Adult-name" name="Adult" rows="4" cols="50"></textarea>
+                      
+             <h2 class="name">Travel type </h2>
+                 <input class="company" type="text" name="Travel-type">
+                 
+             <h2 class="Mailing">Special Occasion</h2>
+                <input class="Special" type="text" name="first_name">
+
+            <h2 class="name">Destination </h2>
+                <input class="Special" type="text" name="destination">
+            
+            <h2 class="name">Prefered Resort</h2>
+                
+                <input class="company" type="text" name="prefered-resort">
+            
+            <h2 class="name">All inclusive </h2>
+                <input class="company" type="text" name="inclusive">
+            
+            <h2 class="name">Adult only or kid friendly </h2>
+                <select class="Statename1" name="subject">
+                <option disabled="disabled" selected="selected" name="friendly">Select..</option>
+                <option>Adult only</option>
+                <option>kid friendly</option>
+                <option>Doesn't matter</option>
+            </select>
+                 <h2 class="name">Flight Only</h2>
+                <select class="Statename1" name="Flight">
+                <option disabled="disabled" selected="selected" >Select...</option>
+                <option>Yes</option>
+                <option>No</option>
+                
+            </select>
+                 <h2 class="name">Round trip Flight Only</h2>
+                <select class="Statename1" name="round-trip">
+                <option disabled="disabled" selected="selected" > Select...</option>
+                <option>Yes</option>
+                <option>No</option> 
+            </select>
+            
+            <h2 class="name">Flight departure </h2>
+              
+            <textarea class="Adult-name" name="departure" rows="4" cols="50"></textarea>
+            
+            <h2 class="name">Number of rooms </h2>
+                <input class="company" type="number" name="room-number">
+                    <h2 class="name">Group size </h2>
+                <input class="company" type="number" name="group">
+                    <h2 class="name">Suite/king</h2>
+                
+                <input class="company" type="text" name="suite">
+                    <h2 class="name">Special rate </h2>
+                
+                <input class="company" type="number" name="rate" min="0">
+                     <h2 class="Mailing1">Transportation to/from hotel</h2>
+                 
+                <select class="Statename1" name="Flight">
+                      <option disabled="disabled" selected="selected" >Service..</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                 </select>
+                 
+                 
+                <h2 class="Mailing1">Cabin type(if applicable)</h2><br>
+                
+            <div class="Statename2">
+                <button class="button button1">Inside Cabin</button>
+                <button class="button button1">Outside Cabin</button>
+            </div>
+                <h2 class="name">Porting</h2>
+                    <input class="company" type="text" name="porting">
+                <h2 class="Mailing">Estimate Trip Ammount(US$)</h2>
+                    <input class="Special" type="number" name="estimate">
+                
+                <h2 class="Mailing">Prefered cruise line</h2>
+                    <input class="Special" type="text" name="preference">
+                
+                <h2 class="Mailing">Have you been on criuse before?</h2>
+                     <input class="Special" type="text" name="have">
+                
+               <h2 class="Mailing">If yes which cruise line?</h2>
+                    <input class="Special" type="text" name="which"><br><br>
+                 
+                <h2 class="Mailing">Anyone over 55?</h2><br>
+                <div class="Statename2">
+                    <button class="button button1">Yes</button>
+                <button class="button button1">No</button>
+                </div>
+                <h2 class="Mailing1">Does Anyone traveling have millitary background?</h2><br>
+                <div class="Statename2">
+                    <button class="button button1">Yes</button>
+                    <button class="button button1">No</button>
+                </div>
+                
+                <h2 class="Mailing">Privacy Policies</h2><br><br>
+                <p>We maintain commercially reasonable technical and organizational measures designed to protect 
+                     Personal Information within our organization. 
+                     Unfortunately, no data transmission or storage system can be guaranteed to be 100% secure. 
+                     If you have reason to believe that your interaction with us is no longer secure, please Contact Us immediately.</p>
+                
+               <h2 class="Mailing">Legal Compliance and Obligations</h2><br><br>
+              
+                <p>We share Personal Information as necessary or appropriate :
+                    (i) to comply with applicable laws and regulation which may include laws outside your country of residence; 
+                    (ii) to protect the rights, privacy, safety, and property of our Customers,to enforce our Terms of Service. 
+                    (iii) to collect amounts owed to us.
+                    (iv) to respond to requests from courts which may include authorities outside your country of residence.</p>
+                 
+                <h2 class="Mailing">Include Travel insurance</h2>
+                     <select class="Statename1" name="insurance">
+                     <option disabled="disabled" selected="selected" ></option>
+                     <option>Yes</option>
+                     <option>No</option>
+                     </select>
+                     
+                <h2 class="Mailing">Payment Selections</h2>
+                     <select class="Statename1" name="pay">
+                     <option disabled="disabled" selected="selected" ></option>
+                     <option>Payment Plan</option>
+                     <option>Pay Full</option>
+                    </select><br><br>
+                 <div onload="GenerateCaptcha();">  
+          
+          <div class="captcha"> 
+            <h4> Enter the Captcha Text: </h4> 
+            <input type="text" id="txtCompare" name="Password"/><br>
+            <input id="btnValid" type="button" value="Check" onclick="alert(ValidCaptcha());"  />
+            <br /> <br />  
+               <input type="text" id="txtCaptcha" style="text-align: center; border:none ;font-weight: bold; font-size: 20px; font-family: Modern;width: 250px ; height: 2.5em" />  
+               <input type="button" id="btnrefresh" value="Refresh" onclick="GenerateCaptcha();" />  <br><br>
+          
+  
+               
+          </div>  
+                 </div>
+                 <div class="Research">
+                 <h4>Research fee</h4>
+                  <input type="number" name="research" placeholder="15" />USD<br><br>
+                </div>
+                <div class="Research">
+                    <h4>Special Insturctions: </h4>
+                    <p>No matter where you plan to travel, make sure you check the Travel Advice and Advisories page for your destination twice: 
+                         once when you are planning your trip, and again shortly before you leave. 
+                         Safety and security conditions may change between the date you book your travel and your departure date.</p>
+                </div>
+                <div  class="end" >
+                    <button class="button button1">Submit</button>
+                </div>
+                
+                
+                  
+                                
+    </form>
+            
+    </div>
+        <script type="text/javascript">  
+        
+        function GenerateCaptcha() {  
+            var chr1 = Math.ceil(Math.random() * 10) + '';  
+            var chr2 = Math.ceil(Math.random() * 10) + '';  
+            var chr3 = Math.ceil(Math.random() * 10) + '';  
+  
+            var str = new Array(4).join().replace(/(.|$)/g, function () { return ((Math.random() * 36) | 0).toString(36)[Math.random() < .5 ? "toString" : "toUpperCase"](); });  
+            var captchaCode = str + chr1 + ' ' + chr2 + ' ' + chr3;  
+            document.getElementById("txtCaptcha").value = captchaCode  
+        }  
+  
+      
+        function ValidCaptcha() {  
+            var str1 = removeSpaces(document.getElementById('txtCaptcha').value);  
+            var str2 = removeSpaces(document.getElementById('txtCompare').value);  
+  
+            if (str1 == str2) return true;  
+            return false;  
+        }  
+  
+        
+        function removeSpaces(string) {  
+            return string.split(' ').join('');  
+        }  
+    </script> 
+    </section> 
+</body>
+</html>
